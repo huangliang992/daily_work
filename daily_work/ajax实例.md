@@ -387,3 +387,7 @@ pom必要的插件，spring用 ResponseBody返回时会自动将Map数据转化�
 当焦点发生变化时出发ajax的事件，向后台请求用户数据判断
 
 ![](http://i.imgur.com/XmBDBcL.jpg)
+
+
+###（四）特别说明
+采用的ajax是jquery封装的，同时还采用了jquery的validation方法
