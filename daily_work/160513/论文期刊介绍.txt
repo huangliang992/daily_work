@@ -1,0 +1,208 @@
+# 第十五届全国软件与应用学术会议（NASAC2016）
+
+征文通知
+第十五届全国软件与应用学术会议（NASAC 2016） (会议编号：CCF-TC-16-27N)由中国计算机学会主办，系统软件专委、软件工程专委和云南大学承办，将于2016年11月3日至5日在昆明举行。 大会将设置特邀报告、论文报告、专题workshop、优博论坛、青年学者论坛、张贴报告、软件系统原型竞赛和产品展示等多种学术交流形式，会议还将与软件学报合作组织专题特约报告，为与会代表提供丰富的交流平台。会议同时征集中英文稿件，中文录用文章将全部由《计算机科学与探索》（长文）、《计算机科学》（短文）出版发表；英文录用文章将由Springer出版社以LNCS专辑出版发表。 
+
+ 
+
+
+ ##一、征文范围（但不限于此）
+ 
+- 1.需求工程 2. 构件技术与软件复用 
+- 3.面向对象与软件Agent 4. 软件体系结构与设计模式 
+- 5.编译技术 6. 新型体系结构的程序设计 
+- 7.代码检测与软件测试 8. 软件再工程 
+- 9.基于知识的软件工程 10. 虚拟机管理器 
+- 11.软件理论与形式化方法 12.操作系统 
+- 13.软件中间件与应用集成 14.分布式系统及应用 
+- 15.软件语言与编译 16.软件标准与规范 
+- 17.软件工程教育 18.软件演化与维护 
+- 19.软件质量分析与验证 20.安全关键软件系统 
+- 21.云计算及其应用技术 22.新型计算机应用 
+　 
+
+
+ ##二、投稿要求 
+ 
+- 1.未在国内外公开发行的刊物或会议论文集上发表。 
+- 2.只接收PDF格式的电子稿件（全文方式）：格式的详细要求请参照《计算机科学与探索》投稿文章格式；英文投稿篇幅限制在15页之内，请按照``Springer LNCS``文章格式。 
+- 3.投稿被录用后，必须有一名作者注册并到会宣读，否则将不予正式发表。 
+
+
+
+
+## 三、投稿方式及重要日期 
+
+
+
+投稿统一使用:https://www.easychair.org/conferences/?conf=nasac2016,该投稿网址分Chinese Track和English Track，请投稿时确认所投稿件已正确提交至相应Track。 
+
+- 中文投稿截止日期：`2016年7月20日`
+- 英文投稿截止日期：`2016年7月31日`
+- 中文文章录用通知日期：2016年9月5日
+- 英文文章录用通知日期：2016年9月30日
+
+
+ ##四、联系方式 
+- 李彤　13888086872；tli@ynu.edu.cn 
+- 王炜　13354980100；wangwei@ynu.edu.cn 
+- 代飞　13908715148；feidai@ynu.edu.cn 
+***
+# 10th International Rule Challenge 2016
+……The RuleML 2016 Challenge is one of the highlights at RuleML 2016 conference which seeks to provide a competition among innovative rule-oriented applications, 
+aimed at both the research and industrial side.
+
+##1. Important Dates
+
+- `Paper Submission:June 1st, 2016`
+- Notification: June 13th, 2016
+- Camera Ready: June 19th, 2016
+- Conference Date: July 6-9, 2016
+- Challenge Prize
+
+The winner of the RuleML Challenge for Best Demo Application will receive the
+RuleML Challenge Award (500 USD)from RuleML!
+
+
+##2. Key themes of the RuleML 2016 Challenge include, but are not limited to the following:
+
+- Demos related to the RuleML 2016 Track Topics
+- Rule-based Event Processing and Stream Reasoning
+- Business Rules Modeling
+- Benchmarks and comparison results for rule engines
+- Distributed rule bases and rule services
+- Rules and model driven engineering
+- Reports on industrial experience about rule systems
+- Real cases and practical experiences
+- (new) Mobile deployment of rule-based reasoning, including (but not limited to):
+- Use cases of mobile rule-based reasoning
+- Fine-tuning reasoning techniques to cope with mobile hardware limitations
+- Realizing efficient crowd-sourced, voting-based, ... processing, by taking advantage of distributed mobile peer-to-peer opportunities
+- Benchmarking mobile rule system performances, and comparing it to desktop/server performance
+
+
+##3. Submission Guidelines and Publication
+
+High quality, original papers, potentially referencing online material, and ranging between 5-15 pages can be submitted at: https://easychair.org/conferences/?conf=ruleml2016 ("10th International Rule Challenge" track).
+
+To ensure high quality, submitted papers will be carefully peer-reviewed by 3 PC members based on clarity and significance of objectives and demonstration of results.
+
+###The paper shall address the following:
+
+Explain the objectives, outcomes, benefits as you are going beyond the state of the art in technology, the application domain, etc.
+Proof the results with a concrete example balancing conciseness and completeness
+Preferably (but not necessarily) embed the tool in a web-based or distributed environment or a mobile environment
+Present end-user interactions, providing an adequate and usable interface that favours a concrete usage of the application
+Mention the availability of the software and data, data interchange, and possible tool extensions
+If it is the case, provide a web-link to the project site, online demonstration, or download site
+Please upload all submissions in `LNCS format`. Rule Challenge 2016 proceedings will be published as CEUR Proceedings and indexed by SCOPUS.
+
+***
+
+
+
+
+#TOPICS OF INTERESTICSOC 2016
+seeks outstanding, original contributions, including theoretical
+and empirical evaluations, as well as practical and industrial experiences,
+with emphasis on results that solve open research problems and have
+significant impact on the field of service-oriented computing.
+ 
+##1. Specific topics of interest include but are not limited to:
+
+* Service Engineering
+  Legacy systems migration to SOA
+  Service design, specification, discovery, customization, composition, and
+deployment
+  Service change management
+  Service innovation
+  Theoretical foundations
+
+* Run-time Service Operations and Management
+  Service execution middleware
+  Service monitoring and adaptive management
+  Quality of service
+  Security, privacy, and trust
+  Service governance
+
+* Services and Data
+  Services for Big Data
+  Service for compute-intensive applications
+  Mining and analytics
+  Data-provisioning services
+  Services related linked open data
+
+* Services on the Cloud
+  Migration to virtual infrastructures
+  XaaS (everything as a service including IaaS, PaaS, and SaaS)
+  Service deployment and orchestration in the Cloud
+  Cloud service management
+  Cloud workflow management
+  Cloud brokers and coordination across multiple resource managers
+
+* Services in the Internet of Things
+  Embedded and real-time services
+  RFID, sensor data and services related to the Internet of Things
+  Services for IoT applications
+
+* Services in organizations, business and society
+  Services science
+  Social networks and services
+  Cost and pricing of services
+  Service marketplaces and ecosystems
+  Service business models
+  Enterprise architecture and services
+ 
+##2. PAPER SUBMISSION
+
+The conference solicits outstanding original research and practice papers on
+all aspects of service-oriented computing. Papers should clearly demonstrate
+the research or practical contribution, the relevance to the field, and the
+relationship to prior work. Submitted papers will be evaluated according to
+their rigor, significance, originality, technical quality, and exposition. All
+papers will be reviewed by at least three members of the program committee.
+ 
+Papers should be formatted according to Springer’s LNCS formatting
+guidelines (for instructions and style sheets, see
+http://www.springer.com/computer/lncs/lncs+authors?SGWID=0-40209-0-0-0).
+Submissions must be in English and not to exceed 15 pages including all
+references and figures. All papers must be submitted electronically in PDF to
+the conference submission system (https://www.conftool.com/icsoc2016).
+ 
+For each accepted paper, at least one author must attend the conference and
+present the paper. The deadline for identifying and registering this
+individual will be at the time when the camera-ready version is submitted.
+
+##3. BEST PAPER AWARD
+The award will be given to the paper that the Program Committee judges to be
+the best in quality, execution and impact among all the accepted papers in the
+conference.
+
+##4. IMPORTANT DATES
+- `Abstract & full paper due: May 15, 2016`
+- Notification to authors:   Jun 30, 2016
+- Camera-ready papers due:   Jul 15, 2016
+- Author registration due:   Jul 15, 2016
+- Early registration due:    Aug 15, 2016
+- Conference dates:          Oct 10-13, 2016
+
+##5. PROCEEDINGS
+All accepted papers will be included in the conference proceedings published
+by Springer Verlag in the Lecture Notes in Computer Science (LNCS) series. 
+
+##6. SPPECIAL ISSUES
+High quality papers accepted by ICSOC 2016 will be invited to submit an
+extended version for consideration of two special issues, at ACM Transactions
+on Internet Technology, and Future Generation Computer Systems, Elsevier.
+
+##7. GENERAL CO-CHAIRS
+Barbara Pernici, Politecnico di Milano, Italy
+Munindar P. Singh, North Carolina State University, USA 
+
+##8. PROGRAM CO-CHAIRS
+Michael Sheng, University of Adelaide, Australia
+Eleni Stroulia, University of Alberta, Canada
+Samir Tata, Institute Mines-Telecom, France
+
+
+Edit By [MaHua](http://mahua.jser.me)
