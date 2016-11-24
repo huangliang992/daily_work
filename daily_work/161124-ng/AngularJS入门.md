@@ -210,3 +210,127 @@
 **加 | uppercase 过滤器**
 
 ![](http://i.imgur.com/3yT6vbd.jpg)
+
+**8.ng的选择框的两种实现方式**一种是ng-repeat，另一种是ng-options，数据源可以是数组也可以是对象
+
+		<!DOCTYPE html>
+		<html>
+		<head>
+		<meta charset="utf-8">
+		<script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+		</head>
+		<body>
+		
+		<div ng-app="myApp" ng-controller="myCtrl">
+		
+		<p>选择网站:</p>
+		
+		<select ng-model="selectedSite">
+		<option ng-repeat="x in sites" value="{{x.url}}">{{x.site}}</option>
+		</select>
+		
+		<h1>你选择的是: {{selectedSite}}</h1>
+		
+		</div>
+		
+		<script>
+		var app = angular.module('myApp', []);
+		app.controller('myCtrl', function($scope) {
+		   $scope.sites = [
+			    {site : "Google", url : "http://www.google.com"},
+			    {site : "Runoob", url : "http://www.runoob.com"},
+			    {site : "Taobao", url : "http://www.taobao.com"}
+			];
+		});
+		</script>
+		
+		<p>该实例演示了使用 ng-repeat 指令来创建下拉列表，选中的值是一个字符串。</p>
+		</body>
+		</html>
+
+这个例子选择的数据源是数组放在sites[]中，数组中存放的是对象，对象有两个属性一个是site另一个是url。采用的是ng-repeat实现
+
+![](http://i.imgur.com/kffUNqs.jpg)
+
+
+		<!DOCTYPE html>
+		<html>
+		<head>
+		<meta charset="utf-8">
+		<script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+		</head>
+		<body>
+		
+		<div ng-app="myApp" ng-controller="myCtrl">
+		
+		<p>选择一辆车:</p>
+		
+		<select ng-model="selectedCar" ng-options="y.brand for (x, y) in cars"></select>
+		<p>你选择的是: {{selectedCar.brand}}</p>
+		<p>型号为: {{selectedCar.model}}</p>
+		<p>颜色为: {{selectedCar.color}}</p>
+		
+		<p>下拉列表中的选项也可以是对象的属性。</p>
+		
+		</div>
+		
+		<script>
+		var app = angular.module('myApp', []);
+		app.controller('myCtrl', function($scope) {
+		    $scope.cars = {
+		        car01 : {brand : "Ford", model : "Mustang", color : "red"},
+		        car02 : {brand : "Fiat", model : "500", color : "white"},
+		        car03 : {brand : "Volvo", model : "XC90", color : "black"}
+		    }
+		});
+		</script>
+		
+		</body>
+		</html>
+
+![](http://i.imgur.com/apAGXM4.jpg)
+
+这个例子选择的数据源是json对象放在cars{}中，采用的是ng-options实现
+
+**9.ng事件显示和隐藏元素**
+
+	<!DOCTYPE html>
+	<html>
+	<head>
+	<meta charset="utf-8">
+	<script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+	</head>
+	<body>
+	
+	<div ng-app="myApp" ng-controller="personCtrl">
+	
+	<button ng-click="toggle()">隐藏/显示</button>
+	
+	<p ng-hide="myVar">
+	名: <input type=text ng-model="firstName"><br>
+	姓: <input type=text ng-model="lastName"><br><br>
+	姓名: {{firstName + " " + lastName}}
+	</p>
+	
+	</div>
+	
+	<script>
+	var app = angular.module('myApp', []);
+	app.controller('personCtrl', function($scope) {
+	    $scope.firstName = "John";
+	    $scope.lastName = "Doe";
+	    $scope.myVar = false;
+	    $scope.toggle = function() {
+	        $scope.myVar = !$scope.myVar;
+	    }
+	});
+	</script>
+	
+	</body>
+	</html>
+
+![](http://i.imgur.com/2Nb2GgX.jpg)![](http://i.imgur.com/eZ3uUbu.jpg)
+
+
+###（三）其他功能
+jquery有的功能ng几乎都包含了，但可能个人习惯原因，我更喜欢jq的事件处理方式，虽然给我的感觉是ng的代码少了，但看起来真的有点让我不爽。个人认为单纯做页面级的应用，ng真的很强大，但要与后台交互的话，我觉得jquery以及它封装的ajax更好用（个人意见）。
