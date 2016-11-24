@@ -162,3 +162,51 @@
 		</html>
 
 ![](http://i.imgur.com/EClcrzI.jpg)
+
+**7.过滤器和服务** ng中服务是函数或者对象，过滤器讲数据变成想要的形式，用|隔开，“aA | upercase（lowercase）”将aA变成大写或者小写输出。下面这个例子是通过服务定制的过滤器，讲十进制转化为十六进制，加了两个过滤器
+
+		<!DOCTYPE html>
+		<html>
+		<head>
+		<meta charset="utf-8">
+		<script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+		</head>
+		<body>
+		
+		<div ng-app="myApp" ng-controller="myCtrl">
+		<p>在获取数组 [255, 251, 200] 值时使用过滤器:</p>
+		
+		<ul>
+		  <li ng-repeat="x in counts">{{x | myFormat | uppercase，然后变成大写}}</li>
+		</ul>
+		
+		<p>过滤器使用服务将10进制转换为16进制。</p>
+		</div>
+		
+		<script>
+		var app = angular.module('myApp', []);
+		app.service('hexafy', function() {
+			this.myFunc = function (x) {
+		        return x.toString(16);
+		    }
+		});
+		app.filter('myFormat',['hexafy', function(hexafy) {
+		    return function(x) {
+		        return hexafy.myFunc(x);
+		    };
+		}]);
+		app.controller('myCtrl', function($scope) {
+		    $scope.counts = [255, 251, 200];
+		});
+		</script>
+		
+		</body>
+		</html>
+
+**不加 | uppercase 过滤器**
+
+![](http://i.imgur.com/MQrfAby.jpg)
+
+**加 | uppercase 过滤器**
+
+![](http://i.imgur.com/3yT6vbd.jpg)
