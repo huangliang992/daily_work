@@ -27,3 +27,7 @@ JSON数据的样子，数组里面是JSON
 		for(var i in education){
 			content=content+"<p>"+education[i].username+"</p>";
 			}
+
+（2）document ready function在一个jsp页面中可以存在多个
+
+（3）最后后台传递的数据在前台处理展示，而不要在后台生成带html标记的字符串后，直接传给前台，实现前后端分离
