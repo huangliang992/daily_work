@@ -49,3 +49,11 @@ Eclipse可以安装管理docker的插件，当本地docker安装成功后，ecli
 
 ![](http://i.imgur.com/UiIsRL8.jpg)
 
+用navicat能登上去，用终端登不上去，一脸蒙蔽
+
+![](http://i.imgur.com/YJWiqT9.jpg)
+
+
+
+
+
